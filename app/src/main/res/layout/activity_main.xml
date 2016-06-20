@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment class="com.example.user.pictureload.ButtonFragment"
+        android:id="@+id/utton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    </fragment>
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/blank5"
+        android:layout_alignStart="@+id/blank5"/>
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/blank6"
+        android:layout_alignLeft="@+id/blank6"
+        android:layout_alignStart="@+id/blank6"/>
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/blank5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/blank6"
+        android:layout_alignLeft="@+id/utton"
+        android:layout_alignStart="@+id/utton" />
+    <fragment class="com.example.user.pictureload.ImageFragment"
+        android:id="@+id/blank6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="112dp"
+        android:layout_below="@+id/blank2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>
